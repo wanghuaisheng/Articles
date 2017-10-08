@@ -1,9 +1,10 @@
 卷 项目 的文件夹 PATH 列表
-卷序列号为 0000001B 0EDD:C177
+卷序列号为 00000001 0EDD:C177
 E:.
 │  ArticleTemplate.docx
 │  ArticleTemplate.pdf
 │  chrome_bookmarks.html
+│  chrome_infinityBackup.infinity
 │  FileList.bat
 │  FileList.txt
 │  LICENSE
@@ -11,10 +12,17 @@ E:.
 │  我的软件工具列表.docx
 │  我的软件工具列表.pdf
 │  
-└─.vs
-    │  ProjectSettings.json
-    │  slnx.sqlite
-    │  VSWorkspaceState.json
-    │  
-    └─Articles
-        └─v15
+├─.vs
+│  │  ProjectSettings.json
+│  │  slnx.sqlite
+│  │  VSWorkspaceState.json
+│  │  
+│  └─Articles
+│      └─v15
+└─OutMan
+        OutMan.png
+        OutMan.svg
+        OutMan_H.png
+        OutMan_H_Src.png
+        OutMan_Src.png
+        
