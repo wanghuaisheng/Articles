@@ -1,0 +1,20 @@
+卷 项目 的文件夹 PATH 列表
+卷序列号为 0000001B 0EDD:C177
+E:.
+│  ArticleTemplate.docx
+│  ArticleTemplate.pdf
+│  chrome_bookmarks.html
+│  FileList.bat
+│  FileList.txt
+│  LICENSE
+│  README.md
+│  我的软件工具列表.docx
+│  我的软件工具列表.pdf
+│  
+└─.vs
+    │  ProjectSettings.json
+    │  slnx.sqlite
+    │  VSWorkspaceState.json
+    │  
+    └─Articles
+        └─v15
