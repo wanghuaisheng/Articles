@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutMan", "OutMan", "{9F354507-C2CE-4EE5-8685-2A449D1C46BD}"
+	ProjectSection(SolutionItems) = preProject
+		OutMan\OutMan.png = OutMan\OutMan.png
+		OutMan\OutMan.svg = OutMan\OutMan.svg
+		OutMan\OutMan_H.png = OutMan\OutMan_H.png
+		OutMan\OutMan_H_Src.png = OutMan\OutMan_H_Src.png
+		OutMan\OutMan_Src.png = OutMan\OutMan_Src.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDscripts", "PDscripts", "{0FE09FF3-9BE2-43A7-B2B1-093A78F642AF}"
+	ProjectSection(SolutionItems) = preProject
+		PDscripts\code2name.vbs = PDscripts\code2name.vbs
+		PDscripts\name2code.vbs = PDscripts\name2code.vbs
+		PDscripts\name2code_and_comment.vbs = PDscripts\name2code_and_comment.vbs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tsql", "Tsql", "{C0A9D48D-CEB9-44F9-B172-70771D3D0377}"
+	ProjectSection(SolutionItems) = preProject
+		Tsql\CDC.sql = Tsql\CDC.sql
+		Tsql\清理ShareUpdate版本.sql = Tsql\清理ShareUpdate版本.sql
+		Tsql\还原数据库.sql = Tsql\还原数据库.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{F361FF51-64E7-4AAC-B829-DF7C6087DA7F}"
+	ProjectSection(SolutionItems) = preProject
+		ArticleTemplate.docx = ArticleTemplate.docx
+		ArticleTemplate.pdf = ArticleTemplate.pdf
+		chrome_bookmarks.html = chrome_bookmarks.html
+		chrome_infinityBackup.infinity = chrome_infinityBackup.infinity
+		FileList.bat = FileList.bat
+		FileList.txt = FileList.txt
+		LICENSE = LICENSE
+		README.md = README.md
+		我的软件工具列表.docx = 我的软件工具列表.docx
+		我的软件工具列表.pdf = 我的软件工具列表.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
