@@ -40,15 +40,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{F3
 		我的软件工具列表.pdf = 我的软件工具列表.pdf
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppCenter", "AppCenter", "{61362332-8C34-4A16-A344-8D46C29024E2}"
+	ProjectSection(SolutionItems) = preProject
+		AppCenter\时序图2017-10-11.oom = AppCenter\时序图2017-10-11.oom
+		AppCenter\请假流程.xml = AppCenter\请假流程.xml
+		AppCenter\请假流程2.xml = AppCenter\请假流程2.xml
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
