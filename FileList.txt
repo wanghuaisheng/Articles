@@ -1,6 +1,7 @@
 卷 项目 的文件夹 PATH 列表
-卷序列号为 00000032 0EDD:C177
+卷序列号为 00000020 0EDD:C177
 E:.
+│  Articles.sln
 │  ArticleTemplate.docx
 │  ArticleTemplate.pdf
 │  chrome_bookmarks.html
@@ -11,18 +12,47 @@ E:.
 │  README.md
 │  我的软件工具列表.docx
 │  我的软件工具列表.pdf
+│  正则表达式30分钟入门教程.docx
+│  正则表达式30分钟入门教程.pdf
 │  
 ├─.vs
 │  │  ProjectSettings.json
 │  │  slnx.sqlite
 │  │  VSWorkspaceState.json
 │  │  
-│  └─Articles
-│      └─v15
-└─OutMan
-        OutMan.png
-        OutMan.svg
-        OutMan_H.png
-        OutMan_H_Src.png
-        OutMan_Src.png
+│  ├─Articles
+│  │  ├─v14
+│  │  │      .suo
+│  │  │      
+│  │  └─v15
+│  └─config
+│          applicationhost.config
+│          
+├─AppCenter
+│      时序图2017-10-11.oom
+│      请假流程.xml
+│      请假流程2.xml
+│      
+├─OutMan
+│      OutMan.png
+│      OutMan.svg
+│      OutMan_H.png
+│      OutMan_H_Src.png
+│      OutMan_Src.png
+│      
+├─PDscripts
+│      code2name.vbs
+│      name2code.vbs
+│      name2code_and_comment.vbs
+│      
+├─ShortCuts
+│      ASP.NET WebApi OWIN 实现 OAuth 2.0 - 田园里的蟋蟀 - 博客园.url
+│      DevExpress控件安装、汉化使用教程 - 田园里的蟋蟀 - 博客园.url
+│      RabbitMQ消息队列（一）- Detailed Introduction 详细介绍 - anzhsoft的技术专栏 - CSDN博客.url
+│      StackExchange.Redis - General purpose redis client.url
+│      
+└─Tsql
+        CDC.sql
+        清理ShareUpdate版本.sql
+        还原数据库.sql
         
