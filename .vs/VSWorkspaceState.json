@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AppCenter",
+    "\\OutMan",
+    "\\PDscripts"
   ],
-  "SelectedNode": "\\Tsql",
+  "SelectedNode": "\\AppCenter",
   "PreviewInSolutionExplorer": false
 }
