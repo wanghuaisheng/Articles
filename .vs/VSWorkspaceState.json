@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\AppCenter",
+    "\\GFM",
+    "\\GFM\\images",
     "\\OutMan",
     "\\PDscripts"
   ],
-  "SelectedNode": "\\AppCenter",
+  "SelectedNode": "\\GFM\\GFM.md",
   "PreviewInSolutionExplorer": false
 }
