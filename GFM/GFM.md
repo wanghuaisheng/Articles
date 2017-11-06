@@ -28,9 +28,9 @@
     *  锚点
     * [图片链接](#图片链接)
 * [列表](#列表)
-    * 无序列表
-    * 有序列表
-    * 复选框列表
+    * 无序列表(#无序列表)
+    * 有序列表(#有序列表)
+    * 复选框列表(#复选框列表)
 * [块引用](#块引用)
 * [代码高亮](#代码高亮)
 * [表格](#表格) 
@@ -238,8 +238,8 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 ```
 效果：
 * 一级
-    * 二级
-        * 三级
+   * 二级
+      * 三级
 
 ### 有序列表
 语法：
@@ -264,8 +264,8 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 ```
 效果：
 1. 一级
-   1. 二级
-      1. 三级
+   1. 二级
+      1. 三级
 	 
 
 ### 复选框列表
@@ -278,9 +278,7 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 - [x] 选中
 - [ ] 不选中
 
-> Tip:
-> 您可以使用复选框列表标注各项任务完成情况
-> 在GitHub的**issue**中，复选框可以直接点击勾选
+> Tip:您可以使用复选框列表标注各项任务完成情况，在GitHub的**issue**中，复选框可以直接点击勾选
 
 ## 引用块
 
@@ -298,62 +296,105 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 >>>> 平衡二叉树
 >>>>> 满二叉树
 
-代码高亮
-----------
-在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
-```Java
-public static void main(String[]args){} //Java
-```
-```c
-int main(int argc, char *argv[]) //C
-```
-```Bash
-echo "hello GitHub" #Bash
-```
-```javascript
-document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
-```
-```cpp
-string &operator+(const string& A,const string& B) //cpp
-```
-## 表格
+## 代码高亮
 
+三个反引号+编程语言的名字
+
+代码块
+
+三个反引号
+
+格式：
+```
+\`\`\`CSharp
+public static void Main(string[] args){} 
+\`\`\`
+```
+效果：
+```CSharp
+public static void Main(string[] args){} 
+```
+>代码名称：CSharp、Java、c、javascript、cpp、c……
+
+## 表格
+格式：
+```
+列1  | 列2
+--------- | --------
+表格单元  | 表格单元
+```
+效果：
 列1  | 列2
 --------- | --------
 表格单元  | 表格单元
 
+格式：
+```
 |列1  | 列2
 |--------- | --------
 表格单元  | 表格单元 |
-
+```
+效果：
+|列1  | 列2
+|--------- | --------
+表格单元  | 表格单元 |
+格式：
+```
 列1  | 列2|
 --------- | --------|
 表格单元  | 表格单元 |
-
+```
+效果：
+列1  | 列2|
+--------- | --------|
+表格单元  | 表格单元 |
+格式：
+```
+| 列1  | 列2|
+| ---------- | -----------|
+| 表格单元   | 表格单元   |
+| 表格单元   | 表格单元   |
+```
+效果：
 | 列1  | 列2|
 | ---------- | -----------|
 | 表格单元   | 表格单元   |
 | 表格单元   | 表格单元   |
 
 ### 表格对齐方式
-
+格式：
+```
 | 左对齐 | 居中  | 右对齐 |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| 左对齐单元格     | 居中单元格 | 右对齐单元格 |
+```
+效果：
+| 左对齐 | 居中  | 右对齐 |
+| :------------ |:---------------:| -----:|
+| 左对齐单元格     | 居中单元格 | 右对齐单元格 |
 
-### 混合其他语法
-
-单元格中的内容可以配合使用大多数GFM语法  
-
+### 单元格格式化
+格式：
+```
 | 名字 | 描述 |
 | ------------- | ----------- |
 | **粗体**      | ~~删除线~~ |
 | `高亮`     | _斜体_  |
-
-### 表格中嵌入图片（链接）
-
+```
+效果：
+| 名字 | 描述 |
+| ------------- | ----------- |
+| **粗体**      | ~~删除线~~ |
+| `高亮`     | _斜体_  |
+>单元格中的内容可以配合使用大多数GFM语法 
+### 单元格嵌入图片链接
+格式：
+```
+| 图片 | 描述 |
+| ---- | ---- |
+|![baidu][baidu-logo] | 百度|
+```
+效果：
 | 图片 | 描述 |
 | ---- | ---- |
 |![baidu][baidu-logo] | 百度|
