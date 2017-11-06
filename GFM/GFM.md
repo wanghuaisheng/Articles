@@ -1,14 +1,15 @@
-#GFM语法
+# GFM语法
 
-　　该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了Readme文件外，Issues和Wiki均支持Markdown语法。
+　　GitHub的Markdown语法，全称`GitHub Flavored Markdown`，简称`GFM`。在标准的markdown语法基础上做了扩充，GFM在GitHub上有广泛应用，Readme、Issues、Wiki、Gists均支持GFM语法
+　　本文对GFM做一个简单的梳理。
 
-****
+***
 	
 |作者|OutMan|
 |:---:|:---:|
 |Email|hiwhs@qq.com|
 
-****
+***
 
 ## 目录
 * [横线](#横线)
@@ -41,14 +42,31 @@
 
 语法：***、---、___可以显示横线效果
 
+语法：
+```
 ***
----
-___
+```
+
+效果：  
+
+***
+
+>使用---或___有同样的效果
 
 
 ## 标题
 语法：6级标题，使用#、##、###、####、#####、######开头，加空格
-# 一级标题  
+语法：
+```
+# 一级标题  
+## 二级标题  
+### 三级标题  
+#### 四级标题  
+##### 五级标题  
+###### 六级标题  
+```
+效果：
+# 一级标题  
 ## 二级标题  
 ### 三级标题  
 #### 四级标题  
