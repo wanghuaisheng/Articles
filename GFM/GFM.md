@@ -1,6 +1,7 @@
 # GFM语法
 
 　　GitHub的Markdown语法，全称`GitHub Flavored Markdown`，简称`GFM`。在标准的markdown语法基础上做了扩充，GFM在GitHub上有广泛应用，Readme、Issues、Wiki、Gists均支持GFM语法。  
+ 
 　　本文对GFM做一个简单的梳理。
 
 ***
