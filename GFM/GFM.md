@@ -332,11 +332,17 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 
 效果：
 
-```CSharp
-public static void Main(string[] args){} 
+```CSharp　
+    class Program
+    {
+        static void Main(string[] args){}
+        {
+	   ……
+        }
+    }　　
 ```
 
->代码名称：CSharp、Java、c、javascript、cpp……
+>代码名称：CSharp、Java、c、javascript、cpp、python、ruby……
 
 ## 表格
 
