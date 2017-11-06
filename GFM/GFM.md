@@ -21,8 +21,6 @@
     * [文本换行](#文本换行)
     * [文本格式化](#文本格式化)
 * [图片](#图片)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
 * [链接](#链接) 
     * 文字超链接
         *  链接外部URL
@@ -129,11 +127,11 @@ ___
 ![alt](URL "title")
 ```
 >URL即图片的url地址
->>- 如果引用本仓库中的图片，直接使用**相对路径**就可了，
->>- 如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
-```
-https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
-```
+>>- 如果引用本仓库中的图片，直接使用**相对路径**
+>>- 如果引用其它仓库的图片，使用格式`仓库地址/raw/分支名/图片路径`
+
+|https://github.com/wanghuaisheng/WitsWay/`raw`/`master`/Documents/WitsRights/WitsRight.png|
+
 >alt和title对应HTML中的alt和title属性,可省略
 >>- alt表示图片显示失败时的替换文本
 >>- title表示鼠标悬停在图片时的显示文本(***注意要加双引号***） 
@@ -141,17 +139,17 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |#|语法|效果|
 |---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![百度](http://www.baidu.com/img/bdlogo.gif "百度LOGO")
-|2|`![][OutManHead]`|![][OutManHead]
+|例1|`![百度](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![百度](http://www.baidu.com/img/bdlogo.gif "百度LOGO")
+|例2|`![][OutManHead]`|![][OutManHead]
 
-注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
->在文末有foryou的定义：
+注意例2的写法使用了**URL定义**，在[链接](#链接)一节有介绍。
+>在文末有OutManHead的定义：
 ```
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+[OutManHead]:https://github.com/wanghuaisheng/Articles/blob/master/OutMan/OutMan100.png?raw=true
 ```
 
-链接
-------
+## 链接
+
 ### 链接外部URL
 
 |#|语法|效果|
@@ -166,13 +164,13 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
 >>URL标识符是我起的名字，不知道是否准确。囧。。
 
-### 链接本仓库里的URL
+### 链接本仓库URL
 
 |语法|效果|
 |----|-----|
 |`[我的简介](/Profile.md)`|[我的简介](/Profile.md)|
 
-### 图片链接
+### 链接图片
 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
 直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
 
@@ -198,46 +196,73 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ## 列表
 ### 无序列表
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-* 英文名：Jelly
+语法：
+```
+* 无
+* 序
+* 列
+* 表
+```
+效果：
+* 无
+- 序
+* 列
+- 表
 
 ### 多级无序列表
-* 编程语言
-    * 脚本语言
-        * Python
+语法：
+```
+* 一级
+    * 二级
+        * 三级
+```
+效果：
+* 一级
+    * 二级
+        * 三级
 
 ### 有序列表
-#### 一般效果
-就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。    
-面向对象的三个基本特征：
+语法：
+```
+1. 有
+2. 序
+3. 列
+4. 表
+```
+效果：
+1. 有
+2. 序
+3. 列
+4. 表
 
-1. 封装
-2. 继承
-3. 多态
-
-
-#### 多级有序列表
-和无序列表一样，有序列表也有多级结构：  
-
-1. 这是一级的有序列表，数字1还是1
-   1. 这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字
-      1. 这是三级的有序列表，数字在显示的时候变成了英文字母
+### 多级有序列表
+语法：
+```
+1. 一级
+   1. 二级
+      1. 三级
+```
+效果：
+1. 一级
+   1. 二级
+      1. 三级
 	 
 
 ### 复选框列表
-- [x] 需求分析
-- [x] 系统设计
-- [x] 详细设计
-- [ ] 编码
-- [ ] 测试
-- [ ] 交付
+语法：
+```
+- [x] 选中
+- [ ] 不选中
+```
+效果：
+- [x] 选中
+- [ ] 不选中
 
-您可以使用这个功能来标注某个项目各项任务的完成情况。
 > Tip:
->> 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
+> 您可以使用复选框列表标注各项任务完成情况
+> 在GitHub的**issue**中，复选框可以直接点击勾选
 
-## 块引用
+## 引用块
 
 ### 常用于引用文本
 #### 文本摘自《深入理解计算机系统》P27
