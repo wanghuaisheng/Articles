@@ -325,9 +325,9 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 格式：
 
 ```
-```CSharp
-public static void Main(string[] args){} 
-\`\`\`
+　```CSharp　　
+　public static void Main(string[] args){} 
+　```　　
 ```
 
 效果：
