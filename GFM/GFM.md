@@ -323,16 +323,20 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 三个反引号
 
 格式：
+
 ```
 ```CSharp
 public static void Main(string[] args){} 
 ```
 ```
+
 效果：
+
 ```CSharp
 public static void Main(string[] args){} 
 ```
->代码名称：CSharp、Java、c、javascript、cpp、c……
+
+>代码名称：CSharp、Java、c、javascript、cpp……
 
 ## 表格
 
