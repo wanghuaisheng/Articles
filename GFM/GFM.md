@@ -24,11 +24,11 @@
     * [文本格式化](#文本格式化)
 * [图片](#图片)
 * [链接](#链接) 
-    * [文字超链接](#文字超链接)
-        * [链接外部URL](#链接外部URL)
-        * [链接本仓库URL](#链接本仓库URL)
-        * [图片链接](#图片链接)
-        * [锚点](#锚点)
+    * [URL链接](#URL链接)
+    * [链接外部URL](#链接外部URL)
+    * [链接本仓库URL](#链接本仓库URL)
+    * [图片链接](#图片链接)
+    * [锚点](#锚点)
 * [列表](#列表)
     * [无序列表](#无序列表)
     * [有序列表](#有序列表)
@@ -190,6 +190,16 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 ```
 
 ## 链接
+
+### URL链接
+
+语法：直接输入URL地址
+```
+http://www.baidu.com
+```
+效果：
+
+http://www.baidu.com
 
 ### 链接外部URL
 
