@@ -207,14 +207,10 @@ http://www.baidu.com
 |#|语法|效果|
 |---|----|-----|
 |例1|`[我的博客](https://cnblogs.com/wanghuaisheng "悬停提示")`|[我的博客](https://cnblogs.com/wanghuaisheng "悬停提示")|
-|例2|`[个人网站][HuaiShengWang]`|[个人网站][HuaiShengWang] |
+|例2|`[个人网站][MySite]`|[个人网站][MySite] |
 
-例2由两部分组成：
-- 第一部分使用两个中括号，[ ]里的标识符（），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
-- 第二部分标记实际URL。
 
->使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
->>URL标识符是我起的名字，不知道是否准确。囧。。
+    例2使用了URL定义，URL定义能达到复用的目的，一般把全文所有的URL定义统一放在文末。
 
 ### 当前仓库链接 
 
@@ -530,8 +526,8 @@ https://github.com/GuoDongXiaRen/README
 
 --------------------------------
 
-[HuaShengDi]:https://cnblogs.com/wanghuaisheng "花生地"
-[HuaShengWang]:https://huaisheng.wang "花生之家"
+[MyBlog]:https://cnblogs.com/wanghuaisheng "个人博客"
+[MySite]:https://huaisheng.wang "个人网站"
 [BaiDuLogo]:http://www.baidu.com/img/bdlogo.gif "百度图"
 [CnblogsLogo]:/images/cnblogs.gif "博客园本地LOGO图"
 [OutManHead]:https://github.com/wanghuaisheng/Articles/blob/master/OutMan/OutMan100.png?raw=true "OutMan头像"
