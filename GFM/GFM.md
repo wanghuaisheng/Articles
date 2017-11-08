@@ -227,7 +227,7 @@ http://www.baidu.com
 
 |#|语法|效果|
 |---|----|:---:|
-|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
+|1|`[![HuaShengWang]](https://huasheng.wang)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
 |2|`[![](/images/cnblogs.gif "我的博客，欢迎关注")][cnblogs]`|[![](/images/cnblogs.gif "我的博客，欢迎关注")][cnblogs]|
 |3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
 
@@ -240,7 +240,7 @@ http://www.baidu.com
 
 |语法|效果|
 |---|---|
-|`[回到顶部](#readme)`|[回到顶部](#readme)|
+|`[回到顶部](#GFM语法)`|[回到顶部](#GFM语法)|
 
 不过要注意，标题中的英文字母都被转化为**小写字母**了。
 > 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
