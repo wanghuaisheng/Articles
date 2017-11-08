@@ -477,31 +477,31 @@ http://www.baidu.com
 
 >单元格中的内容可以配合使用大多数GFM语法 
 
-### 单元格嵌入图片链接
+### 单元格嵌入图片
 
 格式：
 
 ```
 | 图片 | 描述 |
 | ---- | ---- |
-|![baidu][baidu-logo] | 百度|
+|![百度LOGO][BaiDuLogo] | 百度|
 ```
 
 效果：
 
 | 图片 | 描述 |
 | ---- | ---- |
-|![baidu][baidu-logo] | 百度|
+|![百度LOGO][BaiDuLogo] | 百度|
 
 ## 表情
 
-Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
+Github的Markdown语法支持添加Emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。  
 
-比如`:blush:`，可以显示:blush:。
+比如`:blush:`，可以显示:blush:。  
 
-具体每一个表情的符号码，可以查询GitHub的官方网页 http://www.emoji-cheat-sheet.com 。
+所有表情符号码，可以查看GitHub官方地址 http://www.emoji-cheat-sheet.com 。  
 
-但是这个网页每次都打开**奇慢**。所以我整理到了本repo中，大家可以直接在此查看[Emoji](./Emoji.md)。
+大家可以直接在此查看本Repo文件[Emoji](./Emoji.md)。
 
 ## diff语法
 
@@ -519,15 +519,15 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 ```
 
 
-## 原文参考
+## 参考
 
 https://github.com/GuoDongXiaRen/README
 
 
 --------------------------------
 
-[cnblogs]:https://cnblogs.com/wanghuaisheng "我的博客，欢迎关注"
-[mysite]:https://huaisheng.wang "个人站点，欢迎光临"
-[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[cnblogs-logo]:/images/cnblogs.gif "我的博客园"
-[OutManHead]:https://github.com/wanghuaisheng/Articles/blob/master/OutMan/OutMan100.png?raw=true
+[HuaShengDi]:https://cnblogs.com/wanghuaisheng "花生地"
+[HuaShengWang]:https://huaisheng.wang "花生之家"
+[BaiDuLogo]:http://www.baidu.com/img/bdlogo.gif "百度图"
+[CnblogsLogo]:/images/cnblogs.gif "博客园本地LOGO图"
+[OutManHead]:https://github.com/wanghuaisheng/Articles/blob/master/OutMan/OutMan100.png?raw=true "OutMan头像"
