@@ -167,7 +167,7 @@
 ```
 ![alt](URL "title")
 ```
->URL即图片的url地址
+>URL即图片的URL地址
 >>- 如果引用本仓库中的图片，直接使用**相对路径**
 >>- 如果引用其它仓库的图片，使用格式`仓库地址/raw/分支名/图片路径`
 ```
@@ -180,10 +180,11 @@ https://github.com/wanghuaisheng/WitsWay/raw/master/Documents/WitsRights/WitsRig
 
 |#|语法|效果|
 |---|---|----
-|例1|`![百度](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![百度](http://www.baidu.com/img/bdlogo.gif "百度LOGO")
-|例2|`![][OutManHead]`|![][OutManHead]
+|例1 显示百度LOGO图片|`![百度](http://www.baidu.com/img/bdlogo.gif "百度LOGO")`|![百度](http://www.baidu.com/img/bdlogo.gif "百度LOGO")
+|例2 地址错误，显示alt内容|`![百度](http://www.baidu.com/img/bdlogo.gif "百度LOGO")`|![百度](http://www.baidu.com/img/bdlogo1.gif "百度LOGO")
+|例3 显示URL定义的图片|`![OutMan的头像][OutManHead]`|![OutMan的头像][OutManHead]
 
-注意例2的写法使用了**URL定义**，在[链接](#链接)一节有介绍。
+注意例3的写法使用了**URL定义**，在[链接](#链接)一节有介绍。
 >在文末有OutManHead的定义：
 ```
 [OutManHead]:https://github.com/wanghuaisheng/Articles/blob/master/OutMan/OutMan100.png?raw=true
@@ -205,11 +206,11 @@ http://www.baidu.com
 
 |#|语法|效果|
 |---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
-|2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+|例1|`[我的博客](https://cnblogs.com/wanghuaisheng "悬停提示")`|[我的博客](https://cnblogs.com/wanghuaisheng "悬停提示")|
+|例2|`[个人网站][HuaiShengWang]`|[个人网站][HuaiShengWang] |
 
-语法2由两部分组成：
-- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
+例2由两部分组成：
+- 第一部分使用两个中括号，[ ]里的标识符（），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
 - 第二部分标记实际URL。
 
 >使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
@@ -240,10 +241,13 @@ http://www.baidu.com
 
 |语法|效果|
 |---|---|
-|`[回到顶部](#GFM语法)`|[回到顶部](#GFM语法)|
+|`[回到顶部](#top)`|[回到顶部](#top)|
+|`[回到开头](#readme)`|[回到开头](#readme)|
 
-不过要注意，标题中的英文字母都被转化为**小写字母**了。
-> 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
+>实际是指向当前网页对于Id的HTML Document元素
+
+注意
+* 标题中的英文字母会被转化为**小写字母**。
 
 ## 列表
 ### 无序列表
